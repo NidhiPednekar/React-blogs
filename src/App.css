@@ -1,0 +1,23 @@
+/* App.css */
+
+.App {
+  text-align: center;
+}
+
+.blog-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.blog-item {
+  width: 300px;
+  margin: 20px;
+  border: 1px solid #ccc;
+  padding: 20px;
+}
+
+.blog-item img {
+  max-width: 100%;
+  height: auto;
+}
