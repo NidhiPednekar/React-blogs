@@ -1,7 +1,4 @@
 
-   
-
-
 import { useState, useEffect } from 'react';
 import axios from 'axios';
 import './App.css';
@@ -11,7 +8,7 @@ function App() {
 
   useEffect(() => {
     const fetchBlogs = async () => {
-      const apiKey = '64cfacd8e6594e7b8a50179a0aaf6c06' 
+      const apiKey = 'REACT_APP_NEWS_API_KEY' // add your api key here
       const url = `https://newsapi.org/v2/everything?q=real+estate&apiKey=${apiKey}`;
 
       try {
